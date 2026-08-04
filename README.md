@@ -44,6 +44,7 @@ Exporters (node_exporter & windows_exporter): Agentes ligeros para extraer métr
 
 
 📁 Estructura del Repositorio
+
 .
 ├── docker-compose.yml       # Definición de servicios (AdGuard, Grafana, Prometheus, Node Exporter)
 ├── prometheus/
