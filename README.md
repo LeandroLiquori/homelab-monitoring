@@ -42,9 +42,10 @@ Grafana: Panel unificado de visualización e infraestructura (3000).
 
 Exporters (node_exporter & windows_exporter): Agentes ligeros para extraer métricas de CPU, RAM, red y disco en cada SO.
 
-```text
+
 📁 Estructura del Repositorio
 
+```text
 .
 ├── docker-compose.yml       # Definición de servicios (AdGuard, Grafana, Prometheus, Node Exporter)
 ├── prometheus/
