@@ -41,3 +41,17 @@ Prometheus: Base de datos de series temporales (9090) recolectando métricas de 
 Grafana: Panel unificado de visualización e infraestructura (3000).
 
 Exporters (node_exporter & windows_exporter): Agentes ligeros para extraer métricas de CPU, RAM, red y disco en cada SO.
+
+
+📁 Estructura del Repositorio
+.
+├── docker-compose.yml       # Definición de servicios (AdGuard, Grafana, Prometheus, Node Exporter)
+├── prometheus/
+│   └── prometheus.yml       # Configuración de scrape jobs y targets
+├── .gitignore               # Exclusión de configuraciones sensibles
+└── README.md                # Documentación del proyecto
+
+🚀 Despliegue Rápido
+Requisitos
+Docker Engine y Docker Compose V2.
+Conexión a la red local.
