@@ -6,7 +6,7 @@ Un entorno completo de infraestructura local desplegado mediante **Docker Compos
 
 ## 🛠️ Arquitectura de Red y Dispositivos
 
-'
+```text
                              +-------------------------------------------------+
                              |                VM Debian (Server)              |
                              |  +--------------+  +------------+  +---------+  |
@@ -21,7 +21,6 @@ Un entorno completo de infraestructura local desplegado mediante **Docker Compos
  | Notebook (Linux Mint) | | PC Principal (Win 11) |          | 2x Smartphones (Android)| | Smart TV              |
  | Node Exporter + DNS   | | Win Exporter + DNS    |          | DNS Filtering (Wi-Fi) | | DNS Filtering (Wi-Fi) |
  +-----------------------+ +-----------------------+          +-----------------------+ +-----------------------+
-
 
 
 | Dispositivo / Cliente | Sistema Operativo | Rol en la Red | Método de Integración |
