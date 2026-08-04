@@ -1,0 +1,17 @@
+# Entorno y variables sensibles
+.env
+*.env
+*.log
+
+# Datos persistentes y configuración sensible de AdGuard 
+adguardhome/work/
+adguardhome/conf/
+
+# Datos persistentes
+prometheus/data/
+grafana_data/
+
+# Archivos del sistema operativo y editores
+.DS_Store
+.vscode/
+.idea/
