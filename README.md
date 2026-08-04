@@ -42,7 +42,7 @@ Grafana: Panel unificado de visualización e infraestructura (3000).
 
 Exporters (node_exporter & windows_exporter): Agentes ligeros para extraer métricas de CPU, RAM, red y disco en cada SO.
 
-
+```text
 📁 Estructura del Repositorio
 
 .
@@ -51,6 +51,7 @@ Exporters (node_exporter & windows_exporter): Agentes ligeros para extraer métr
 │   └── prometheus.yml       # Configuración de scrape jobs y targets
 ├── .gitignore               # Exclusión de configuraciones sensibles
 └── README.md                # Documentación del proyecto
+```
 
 🚀 Despliegue Rápido
 Requisitos
